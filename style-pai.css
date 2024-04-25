@@ -1,0 +1,379 @@
+.show {
+  top: 55px !important;
+  display: flex !important;
+}
+
+.display-block {
+  display: block !important;
+}
+
+@media (max-width: 600px) {
+  .header {
+    z-index: 999 !important;
+  }
+
+  .menu-links a {
+    display: none;
+  }
+
+  .menu-colapse {
+    display: flex !important;
+    justify-content: flex-end;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-between !important;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .menu-area-mobile {
+    display: flex !important;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: -90px;
+    width: 100vw;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    cursor: pointer;
+    transition: top 300ms ease-out;
+    background-color: #1f1f1f;
+    padding-bottom: 12px;
+    z-index: 99 !important;
+  }
+
+  .menu-area-mobile a {
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .menu-area-mobile a:hover {
+    color: gray;
+  }
+
+  .my-card-profile img {
+    display: none;
+  }
+
+  .filmes-alta {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filmes-alta img {
+    width: 350px !important;
+    height: 200px;
+  }
+
+  .serie-alta {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .serie-alta img {
+    width: 350px !important;
+    height: 200px;
+  }
+
+  .descricao p {
+    font-size: 15px !important;
+  }
+
+  .catalogos-disponiveis {
+    padding: 0 8px !important;
+  }
+
+  .catalogos-disponiveis p {
+    text-align: center;
+  }
+
+  .filmes {
+    display: flex;
+    justify-content: center;
+    margin-left: 0 !important;
+  }
+
+  .modal-backdrop {
+    display: none;
+    margin: 0;
+  }
+
+  .movie-title {
+    font-size: 15px !important;
+  }
+
+  .movie-description p {
+    font-size: 10px !important;
+  }
+
+  .movie-details {
+    display: inline;
+  }
+
+  .movie-duration {
+    font-size: 15px;
+  }
+
+  .movie-gender {
+    font-size: 15px;
+  }
+
+  .modal {
+    max-height: 80%;
+    overflow: scroll;
+  }
+
+  .close-modal {
+    position: relative;
+  }
+
+  .close-modal p {
+    position: relative;
+    top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 5px;
+  }
+
+  .trailer iframe {
+    width: 350px !important;
+    height: 200px !important;
+  }
+
+  .footer {
+    width: 100%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c1c1c;
+  margin: 0;
+}
+
+.logo-area {
+  width: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background-color: #1f1f1f;
+}
+
+.menu-colapse {
+  display: none;
+}
+
+.menu-links {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+}
+
+.menu-links a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.menu-links a:hover {
+  color: gray;
+}
+
+.menu-area-mobile {
+  display: none;
+}
+
+.my-card-profile img {
+  width: 60px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.inicio-de-tudo p {
+  color: aqua;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.filmes-alta {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.filmes-alta img {
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.serie-alta {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.serie-alta img {
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.inicio {
+  margin: 25px;
+}
+
+.inicio p {
+  color: aliceblue;
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.descricao p {
+  font-size: 20px;
+  color: #dcdcdc;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.catalogos-disponiveis {
+  padding: 70px 8px;
+}
+
+.catalogos-disponiveis p {
+  color: aliceblue;
+  font-size: 25px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.filmes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-left: 50px;
+}
+
+.filmes img {
+  width: 250px;
+  border-radius: 10px;
+  border: 3px solid black;
+  height: 150px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.filmes img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.filmes p {
+  font-size: 15px;
+  text-align: center;
+  font-family: serif;
+}
+
+.filme-super-bad {
+  border: white;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.modal-backdrop {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.modal {
+  width: 800px;
+  height: 70%;
+  overflow-y: scroll;
+  background-color: #1c1c1c;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.close-modal {
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.close-modal p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+  padding: 2px 5px;
+}
+
+.modal .movie-title {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.trailer {
+  display: flex;
+  justify-content: center;
+}
+
+.trailer iframe {
+  margin-top: 36px;
+  border: 2px solid black;
+  width: 500px;
+  height: 300px;
+}
+
+.movie-description {
+  font-size: 16px;
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.movie-details {
+  color: aliceblue;
+  display: flex;
+  gap: 12px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

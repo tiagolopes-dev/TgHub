@@ -1,0 +1,83 @@
+@media (max-width: 600px) {
+  .container h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .cards-profile img {
+    width: 150px !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
+.container {
+  padding: 120px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 44px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.cards-profile {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.name-card {
+  color: aliceblue;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.card-profile {
+  border-radius: 30px;
+}
+
+.card-profile:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.card-profile img {
+  width: 208px;
+  border-radius: 40px;
+}
+
+.buttom-cards {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.buttom-cards button {
+  padding: 8px 12px;
+  background-color: #1c1c1c;
+  border: 1px solid #cccccc;
+  color: aqua;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+}
+
+.buttom-cards button:hover {
+  color: white;
+  border: 1px solid white;
+}

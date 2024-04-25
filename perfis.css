@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+  .gerenciador {
+    padding: 100px !important;
+  }
+
+  .gerenciador p {
+    font-size: 20px !important;
+    text-align: center;
+  }
+
+  .button-voltar {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+body {
+  background-color: #1c1c1c;
+}
+
+.gerenciador {
+  text-align: center;
+  padding: 150px;
+}
+
+.gerenciador p {
+  font-size: 25px;
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.gerenciador .icon-triste {
+  font-size: 40px;
+}
+
+.button-voltar button {
+  padding: 8px 12px;
+  background-color: #1c1c1c;
+  border: 1px solid #cccccc;
+  color: aqua;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+}
