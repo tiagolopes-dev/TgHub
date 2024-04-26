@@ -70,6 +70,10 @@
     height: 200px;
   }
 
+  .preview-image {
+    border: 2px solid #646464 !important;
+  }
+
   .serie-alta {
     display: flex;
     flex-direction: column;
@@ -285,16 +289,14 @@ body {
   cursor: pointer;
   transform: scale(1.1);
   opacity: 0.9;
+  border: 3px solid #646464;
+  transition: 0.5s ease-in-out;
 }
 
 .filmes p {
   font-size: 15px;
   text-align: center;
   font-family: serif;
-}
-
-.filme-super-bad {
-  border: white;
 }
 
 .footer {

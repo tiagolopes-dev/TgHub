@@ -5,6 +5,10 @@
     padding: 0;
   }
 
+  .cards-profile {
+    gap: 50px !important;
+  }
+
   .cards-profile img {
     width: 150px !important;
   }
@@ -36,7 +40,7 @@ h1 {
 .cards-profile {
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 80px;
 }
 
 .name-card {
