@@ -291,7 +291,7 @@ body {
   transform: scale(1.1);
   opacity: 0.9;
   border: 3px solid #646464;
-  transition: 0.5s ease-;
+  transition: 0.5s ease-out;
 }
 
 .filmes p {
